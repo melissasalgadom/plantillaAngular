@@ -11,6 +11,10 @@ export const ROUTES: RouteInfo[] = [
     {
         path: '/components/editor', title: 'Editar texto', icon: 'ft-file', class: '', badge: '', badgeClass: '', isExternalLink: false, submenu: []
     },
+    {
+        path: '/login/login', title: 'Login', icon: 'ft-file', class: '', badge: '', badgeClass: '', isExternalLink: false, submenu: []
+    },
+    
     /*{
         path: '/content-layout', title: 'Content Layout', icon: 'ft-square', class: '', badge: '', badgeClass: '', isExternalLink: false, submenu: []
     },

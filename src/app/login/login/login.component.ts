@@ -1,3 +1,4 @@
+
 import { Component, ViewChild } from '@angular/core';
 import { NgForm, EmailValidator } from '@angular/forms';
 import { Router, ActivatedRoute } from "@angular/router";
@@ -11,7 +12,7 @@ import { LoginService } from './login.service';
 export class LoginComponent  {
 
   
-  @ViewChild('f', {static: false}) loginForm: NgForm;
+ /* @ViewChild('f', {static: false}) loginForm: NgForm;
 
   public correo_electronico = "melissa"; 
   public contrasena = '123';
@@ -41,5 +42,5 @@ onForgotPassword() {
 // On registration link click
 onRegister() {
   this.router.navigate(['register'], { relativeTo: this.route.parent });
-}
+}*/
 }

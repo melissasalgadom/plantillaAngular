@@ -8,7 +8,7 @@ import { map, catchError } from 'rxjs/operators';
 })
 export class LoginService {
 
-  constructor(private http: Http) { }
+  /*constructor(private http: Http) { }
 
   private headersREST(): Headers {
     const myHeaders = new Headers();
@@ -33,5 +33,5 @@ export class LoginService {
       Status: error.status
     };
     return Observable.throw(json);
-  }
+  }*/
 }
